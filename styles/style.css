@@ -1,6 +1,7 @@
 html {
     font-size: 20px;
     font-family: 'Amatic SC', cursive;
+    background-color: #193c47
 }
 
 h1 {
@@ -13,5 +14,4 @@ li {
     font-size: 20px;
     line-height: 2;
     letter-spacing: 1px;
-    text-emphasis: bold;
 }
