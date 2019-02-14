@@ -4,6 +4,14 @@ html {
     background-color: #193c47
 }
 
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #c14242;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+
 h1 {
     font-size: 60px;
     text-align: center;
