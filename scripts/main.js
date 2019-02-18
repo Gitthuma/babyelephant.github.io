@@ -8,3 +8,6 @@ myImage.onclick = function() {
         myImage.setAttribute('src', 'images/animated-elephant-image-0456.gif')
     }
 }
+
+var myButton = document.querySelector('button');
+var myHeading = document.querySelector('h1');
