@@ -17,3 +17,10 @@ function setUserName() {
     localStorage.setItem('name', myName);
     myHeading.textContent = 'BabyElephant' + myName;
 }
+
+if (!localStorage.getItem('name')) {
+    setUserName();
+} else {
+    var storedName = localStorage.getItem('name');
+    myHeading.textContent = 'BabyElephant' + storedName;
+}
